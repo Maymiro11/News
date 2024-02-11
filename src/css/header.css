@@ -1,21 +1,44 @@
-.header {
-  padding: 20px 0;
+.top-header {
+    background-color: rgb(196, 193, 193);
+    width: 100%;
 }
 
-.nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+.header-container {
+    width: 100%;
+    padding: 20px;
+    max-width: 1200px; /* Наприклад, максимальна ширина контейнера */
+    margin: 0 auto; /* Центрування контейнера на сторінці */
+    display: flex;
+    gap: 12px;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.logo {
+    /* Задайте стилі вашого логотипу */
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.nav {
+    /* Задайте стилі вашого навігаційного меню */
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Наприклад, відступ між пунктами меню */
+}
+
+.nav ul li:last-child {
+    margin-right: 0; /* Видаляємо відступ для останнього пункту меню */
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Колір тексту посилань */
+}
+.info{
+    background-color: greenyellow;
 }
